@@ -18,6 +18,8 @@ If inference is carried out on the data, it is also written to storage
 
 The processed data is read from storage and returned to the customer/process/entity that requires the processed information or model inference output
 
+## NB: This app does not run. It is just meant to serve as an outline for how I would think about building the real-time scalable backend as described in the job description. There are no redpanda or kafka services (or config to run them). Thanks
+
 
 ## PS
 This is very simplistic, and there are intermediate steps that will need to be implements, but this is a scalable architecture that relies on multiple components that can be developed and run separately and are mostly coupled by their shared data stack.
